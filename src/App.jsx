@@ -13,7 +13,6 @@ const storedPlaces = storedIds.map((id) =>
 );
 
 function App() {
-  const modal = useRef();
   const selectedPlace = useRef();
   const [pickedPlaces, setPickedPlaces] = useState(storedPlaces);
   const [availablePlaces, setAvailablePlaces] = useState([]);
